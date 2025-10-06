@@ -1,0 +1,25 @@
+---
+// Catalog page
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProductCard from '../components/ProductCard.astro';
+const products = [
+  { id: 'p1', name: 'Cuernitos chocolate', price: 15, description: '6 unidades', image: '/src/assets/cachito.png' },
+  { id: 'p2', name: 'Pan Artesanal', price: 8, description: '6 unidades surtidas', image: '/src/assets/tantawawaas.jpg' },
+  { id: 'p3', name: 'Tarta de frutas', price: 19, description: 'Vainilla y deliciosa', image: '/src/assets/keke.png' },
+  // puedes agregar más
+];
+---
+<BaseLayout title="Catálogo - Repostería D'Rossy">
+  <link rel="stylesheet" href="/src/styles/catalogo.css" />
+  <h1 class="text-3xl font-bold mb-4">Catálogo</h1>
+  <div class="grid-card">
+    {products.map(p => <ProductCard product={p} />)}
+  </div>
+
+  <!-- Cart island on the side (simple include) -->
+  <div class="mt-8">
+    <script type="module">
+      import CartClient from '../components/CartClient.jsx';
+    </script>
+  </div>
+</BaseLayout>

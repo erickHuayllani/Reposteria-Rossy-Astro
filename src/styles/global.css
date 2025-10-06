@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global tweaks */
+:root {
+  --brand: #e76f51;
+  --muted: #6b7280;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}

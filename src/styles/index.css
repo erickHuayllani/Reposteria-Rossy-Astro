@@ -1,0 +1,6 @@
+@import './global.css';
+
+/* Index specific */
+.hero-title {
+  @apply text-4xl md:text-5xl font-extrabold tracking-tight;
+}
