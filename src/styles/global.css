@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animate-fade-up {
+    @apply transform opacity-0 translate-y-4;
+    /* o la regla que uses */
+  }
+}
+
 /* Global tweaks */
 :root {
   --brand: #e76f51;
