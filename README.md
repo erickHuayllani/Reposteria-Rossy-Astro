@@ -15,17 +15,18 @@ Notas:
 - Mejoré visualmente con Tailwind (bordes, sombras, tipografía).
 - El carrito funciona en el frontend usando `localStorage`. Fácil de conectar a un backend en el futuro.
   
- La ESTRUCTURA SERIA COMO
-reposteria-rossy-astro/
-├── public/               # Archivos públicos como imágenes, favicon, etc.
-│   └── assets/
-│       ├── images/
-│       └── logos/
-├── src/                  # Archivos fuente de la aplicación
-│   ├── components/       # Componentes reutilizables de la interfaz
-│   ├── pages/            # Páginas principales (inicio, productos, contacto, etc.)
-│   ├── styles/           # Archivos CSS o SCSS
-│   └── utils/            # Funciones o utilidades auxiliares
-├── package.json          # Configuración de dependencias, scripts, etc.
-├── .gitignore            # Archivos y directorios a ignorar en git
-└── README.md             # Descripción del proyecto
+La ESTRUCTURA :
+
+├── public/                # Archivos públicos como imágenes, favicon, etc.
+│   ├── images/            # Imágenes
+│   └── logos/             # Logotipos
+│
+├── src/                   # Archivos fuente de la aplicación
+│   ├── components/        # Componentes reutilizables de la interfaz
+│   ├── pages/             # Páginas principales (inicio, productos, contacto, etc.)
+│   ├── styles/            # Archivos CSS o SCSS
+│   └── utils/             # Funciones o utilidades auxiliares
+│
+├── package.json           # Configuración de dependencias, scripts, etc.
+├── README.md              # Descripción del proyecto
+└── .gitignore             # Archivos y directorios a ignorar en git
