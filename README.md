@@ -15,8 +15,8 @@ Notas:
 - Mejoré visualmente con Tailwind (bordes, sombras, tipografía).
 - El carrito funciona en el frontend usando `localStorage`. Fácil de conectar a un backend en el futuro.
   
-La ESTRUCTURA :
-
+La ESTRUCTURA SERÍA COMO repo-rosseria-rossy-astro/
+│
 ├── public/                # Archivos públicos como imágenes, favicon, etc.
 │   ├── images/            # Imágenes
 │   └── logos/             # Logotipos
@@ -30,3 +30,4 @@ La ESTRUCTURA :
 ├── package.json           # Configuración de dependencias, scripts, etc.
 ├── README.md              # Descripción del proyecto
 └── .gitignore             # Archivos y directorios a ignorar en git
+
