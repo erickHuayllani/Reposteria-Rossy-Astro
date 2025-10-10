@@ -15,7 +15,8 @@ Notas:
 - Mejoré visualmente con Tailwind (bordes, sombras, tipografía).
 - El carrito funciona en el frontend usando `localStorage`. Fácil de conectar a un backend en el futuro.
   
-La ESTRUCTURA SERÍA COMO repo-rosseria-rossy-astro/
+La ESTRUCTURA:
+
 │
 ├── public/                # Archivos públicos como imágenes, favicon, etc.
 │   ├── images/            # Imágenes
